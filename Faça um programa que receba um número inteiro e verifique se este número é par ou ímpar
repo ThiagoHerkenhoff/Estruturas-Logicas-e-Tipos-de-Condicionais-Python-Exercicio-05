@@ -1,0 +1,10 @@
+# 5 - Faça um programa que receba um número inteiro e verifique se este número é par ou ímpar
+
+n = int(input('Informe um número: '))
+
+r = n % 2
+
+if r == 0:
+    print(f'O número {n} é par')
+else:
+    print(f'O número {n} é ímpar')
